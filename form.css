@@ -1,0 +1,65 @@
+#container{
+    background-color: #2d3e3f;
+    margin:500px ;
+    margin-top: 150px;
+    width: 470px;
+    height: 400px;
+    padding-top:15px ;
+    padding-left: 10px;
+}
+#box{
+    display:flex;
+    width: 380px;
+    height: 35px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+
+#fl_fontLabel{
+    display:flex;
+    color:aliceblue;
+    width: 150px;
+    align-items: center;
+
+}
+#fill{
+    font-family: sans-serif;
+    font-size: 17px;
+}
+#radio{
+    display: flex;
+    font-family: sans-serif;
+    font-size: 17px;
+    color:aliceblue;
+    align-items: center;
+}
+.icon_item{
+    display: flex;
+    width: 40px;
+    align-items: center;
+    justify-content: center; 
+}
+.icon{
+    display: flex;
+    background-color: orangered;
+}
+#checkBox{
+    display: flex;
+    font-family: sans-serif;
+    font-size: 17px;
+    color:aliceblue;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+#submit{
+    display:flex;
+    background-color: orangered;
+    align-items: center;
+    justify-content: center; 
+    width: 90px;
+    height: 50px; 
+    margin-left: 300px;
+    margin-top: 10px;
+}

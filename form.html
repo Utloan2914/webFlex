@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fill Form</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div id="container">
+        <form>
+            <div id="box">
+                <label id="fl_fontLabel">First name:</label><br>
+                <div class="icon">
+                   <div class="icon_item"> <i class="fa-solid fa-user"></i> </div>
+                    <input  id="fill" type="text" placeholder="First name"><br>
+                </div>
+            </div>
+
+            <div id="box">
+                <label id="fl_fontLabel">Last name:</label><br>
+                <div class="icon">
+                    <div class="icon_item"> <i class="fa-solid fa-user"></i> </div>
+                    <input  id="fill" type="text" placeholder="Last name"><br>
+                </div>
+            </div>
+
+            <div id="box">
+                <label id="fl_fontLabel">Phone No.:</label><br>
+                <div class="icon">
+                    <div class="icon_item"> <i class="fa-solid fa-square-phone"></i> </div>
+                    <input  id="fill" type="text" placeholder="Phone No."><br>
+                </div>
+            </div>
+
+            <div id="box">
+                <label id="fl_fontLabel">Email Id:</label><br>
+                <div class="icon">
+                    <div class="icon_item"> <i class="fa-solid fa-envelope"></i> </div>
+                    <input  id="fill" type="text" placeholder="Email Id"><br>
+                </div>
+            </div>
+            <div id="box">
+                <label id="fl_fontLabel">Password:</label><br>
+                <div class="icon">
+                    <div class="icon_item"> <i class="fa-solid fa-key"></i> </div>
+                    <input  id="fill" type="text" placeholder="Password"><br>
+                </div>
+            </div>
+            <div id="box">
+                <label id="fl_fontLabel">Gender:</label><br>
+                <div id="radio">
+                    <input type="radio" name="Gender" value="Male" required> Male 
+                    <input type="radio" name="Gender" value="Female" required> Female
+                </div>
+            </div>
+            <div id="checkBox">
+                <input type="checkbox"> 
+                <label>I accept the terms and conditions</label>
+            </div>
+
+            <div id="subMit">
+                <input  id="submit" type="submit" value="SUBMIT">
+            </div>
+            
+        </form>
+    </div>
+    
+
+</body>
+</html>
